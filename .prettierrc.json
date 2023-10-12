@@ -1,0 +1,18 @@
+{
+	"semi": false,
+	"overrides": [
+		{
+			"files": ["*.json"],
+			"options": {
+				"useTabs": true
+			}
+		},
+		{
+			"files": ["src/template/**/*.ts*"],
+			"options": {
+				"useTabs": true,
+				"semi": true
+			}
+		}
+	]
+}
