@@ -1,6 +1,6 @@
-import { useRoutes } from "react-router-dom"
-import { ThemeProvider } from "@/components/theme-provider"
 import { SiteHeader } from "@/components/site-header"
+import { ThemeProvider } from "@/components/theme-provider"
+import { useRoutes } from "react-router-dom"
 import { TailwindIndicator } from "./components/tailwind-indicator"
 
 const routes = [{ path: "/", element: <Home /> }]
