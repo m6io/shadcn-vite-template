@@ -6,13 +6,6 @@
 			"options": {
 				"useTabs": true
 			}
-		},
-		{
-			"files": ["src/template/**/*.ts*"],
-			"options": {
-				"useTabs": true,
-				"semi": true
-			}
 		}
 	],
 	"importOrderSeparation": false,
