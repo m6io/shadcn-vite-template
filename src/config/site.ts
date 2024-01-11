@@ -11,7 +11,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
+    youtube: "https://youtube.com/@m6io",
     github: "https://github.com/m6io/shadcn-vite-template",
     docs: "https://ui.shadcn.com",
   },

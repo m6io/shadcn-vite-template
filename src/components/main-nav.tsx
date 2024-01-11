@@ -1,7 +1,7 @@
-import { NavItem } from "@/types/nav"
+import { Icons } from "@/components/icons"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
+import { NavItem } from "@/types/nav"
 import { Link } from "react-router-dom"
 
 interface MainNavProps {
@@ -25,12 +25,12 @@ export function MainNav({ items }: MainNavProps) {
                   to={item.href}
                   className={cn(
                     "flex items-center text-sm font-medium text-muted-foreground",
-                    item.disabled && "cursor-not-allowed opacity-80"
+                    item.disabled && "cursor-not-allowed opacity-80",
                   )}
                 >
                   {item.title}
                 </Link>
-              )
+              ),
           )}
         </nav>
       ) : null}

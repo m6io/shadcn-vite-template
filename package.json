@@ -1,5 +1,6 @@
 {
 	"name": "shadcn-vite-template",
+	"author": "m6io",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
